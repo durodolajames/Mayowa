@@ -270,7 +270,7 @@ function App() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-6 shadow-xl max-w-xs">
-                <p className="font-oswald text-4xl font-bold">15+</p>
+                <p className="font-oswald text-4xl font-bold">5+</p>
                 <p className="text-sm text-gray-500">Years of artistic journey</p>
               </div>
             </div>
@@ -309,18 +309,14 @@ function App() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-gray-200">
-                <div>
-                  <p className="font-oswald text-3xl font-bold">50+</p>
-                  <p className="text-sm text-gray-500">Exhibitions</p>
-                </div>
+              <div className="grid grid-cols-2 gap-6 mt-10 pt-8 border-t border-gray-200">
                 <div>
                   <p className="font-oswald text-3xl font-bold">200+</p>
                   <p className="text-sm text-gray-500">Artworks</p>
                 </div>
                 <div>
-                  <p className="font-oswald text-3xl font-bold">12</p>
-                  <p className="text-sm text-gray-500">Awards</p>
+                  <p className="font-oswald text-3xl font-bold">Mentored</p>
+                  <p className="text-sm text-gray-500">African Female Artist Membership Program 2026</p>
                 </div>
               </div>
             </div>
