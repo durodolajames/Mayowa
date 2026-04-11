@@ -96,30 +96,6 @@ const artworks = [
   }
 ]
 
-const testimonials = [
-  {
-    id: 1,
-    name: "Sarah Mitchell",
-    role: "Art Collector",
-    quote: "Elena's work transformed our living space into something truly extraordinary. Her ability to capture emotion on canvas is unparalleled.",
-    image: "/images/testimonial-1.jpg"
-  },
-  {
-    id: 2,
-    name: "James Chen",
-    role: "Gallery Director",
-    quote: "A visionary artist who pushes boundaries while maintaining a deep respect for classical techniques. Her exhibitions always draw crowds.",
-    image: "/images/testimonial-2.jpg"
-  },
-  {
-    id: 3,
-    name: "Emma Rodriguez",
-    role: "Interior Designer",
-    quote: "Working with Elena has been a dream. Her attention to detail and understanding of space makes her pieces perfect for any environment.",
-    image: "/images/testimonial-3.jpg"
-  }
-]
-
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
