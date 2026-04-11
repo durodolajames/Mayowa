@@ -294,9 +294,9 @@ function App() {
                 </p>
               </div>
 
-              {/* Mission Statement */}
+              {/* Artist Statement */}
               <div className="border-t border-gray-200 pt-8">
-                <h3 className="font-oswald text-xl font-medium mb-4">Mission Statement</h3>
+                <h3 className="font-oswald text-xl font-medium mb-4">Artist Statement</h3>
                 <p className="body-md text-gray-600 mb-4">
                   My work explores the courage and psychology of being oneself unapologetically through the lens of everyday life. Growing up in Lagos has exposed me to constant movement, pressure, and survival, shaping the way I observe people navigating personal and shared struggles while still finding moments of joy.
                 </p>
@@ -316,7 +316,7 @@ function App() {
                 </div>
                 <div>
                   <p className="font-oswald text-3xl font-bold">Mentored</p>
-                  <p className="text-sm text-gray-500">African Female Artist Membership Program 2026</p>
+                  <p className="text-sm text-gray-500">African Female Artist Mentorship Program 2026</p>
                 </div>
               </div>
             </div>
