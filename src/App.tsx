@@ -473,9 +473,9 @@ function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-              <a href="mailto:hello@elenavoss.art" className="btn-primary">
+              <a href="mailto:mayowarsln105@gmail.com" className="btn-primary">
                 <Mail size={18} className="mr-2" />
-                hello@elenavoss.art
+                mayowarsln105@gmail.com
               </a>
             </div>
 
@@ -486,7 +486,7 @@ function App() {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
                 <Twitter size={20} />
               </a>
-              <a href="mailto:hello@elenavoss.art" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
+              <a href="mailto:mayowarsln105@gmail.com" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
                 <Mail size={20} />
               </a>
             </div>
