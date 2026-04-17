@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
-import { Menu, X, Instagram, Twitter, Mail, ArrowRight, MapPin, Calendar, Ruler } from 'lucide-react'
+import { Menu, X, Instagram, Mail, ArrowRight, MapPin, Calendar, Ruler } from 'lucide-react'
 
 // Artwork data
 const artworks = [
@@ -418,7 +418,7 @@ function App() {
               <p className="text-gray-600 mb-6">
                 Bespoke artwork created specifically for your space, vision, and aesthetic preferences.
               </p>
-              <button className="text-black font-oswald font-medium hover:underline">Request quote</button>
+              <a href="https://wa.me/2348104096901?text=Hi%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20a%20custom%20commission." target="_blank" rel="noopener noreferrer" className="text-black font-oswald font-medium hover:underline">Request quote</a>
             </div>
 
             {/* Murals & Large-Scale Works */}
@@ -432,7 +432,7 @@ function App() {
               <p className="text-gray-600 mb-6">
                 Transform commercial and residential spaces with impactful large-format pieces.
               </p>
-              <button className="text-black font-oswald font-medium hover:underline">Request quote</button>
+              <a href="https://wa.me/2348104096901?text=Hi%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20a%20mural%20or%20large-scale%20work." target="_blank" rel="noopener noreferrer" className="text-black font-oswald font-medium hover:underline">Request quote</a>
             </div>
 
             {/* Brand Collaborations */}
@@ -446,14 +446,14 @@ function App() {
               <p className="text-gray-600 mb-6">
                 Creative partnerships for campaigns, product design, and experiential installations.
               </p>
-              <button className="text-black font-oswald font-medium hover:underline">Request quote</button>
+              <a href="https://wa.me/2348104096901?text=Hi%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20a%20brand%20collaboration." target="_blank" rel="noopener noreferrer" className="text-black font-oswald font-medium hover:underline">Request quote</a>
             </div>
           </div>
 
           <div className="flex justify-center">
-            <button onClick={() => scrollToSection(contactRef)} className="btn-primary">
+            <a href="https://wa.me/2348104096901?text=Hi%2C%20I%27d%20like%20to%20start%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer" className="btn-primary">
               Start a Project
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -476,14 +476,8 @@ function App() {
             </div>
 
             <div className="flex items-center justify-center gap-8">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
+              <a href="https://www.instagram.com/artbymayowa_?igsh=NjR4ZXNwNHNtbDc5" target="_blank" rel="noopener noreferrer" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
                 <Instagram size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
-                <Twitter size={20} />
-              </a>
-              <a href="mailto:mayowarsln105@gmail.com" className="p-3 border border-gray-200 rounded-full hover:bg-black hover:text-white hover:border-black transition-all">
-                <Mail size={20} />
               </a>
             </div>
 
@@ -588,12 +582,14 @@ function App() {
                 </div>
                 
                 <div className="mt-8 pt-6 border-t border-gray-200">
-                  <button 
-                    onClick={() => scrollToSection(contactRef)}
-                    className="btn-primary w-full"
+                  <a 
+                    href={`https://wa.me/2348104096901?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20${encodeURIComponent(selectedArtwork.title)}.`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary w-full flex items-center justify-center"
                   >
                     Inquire About This Piece
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
